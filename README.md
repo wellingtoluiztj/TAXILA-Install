@@ -58,13 +58,17 @@ module purge
 <pre>
 ./contrib/download_prerequisites
 </pre>
-*6.* Configure the build
+*6.* Configure the build (all the times )
 <pre>
-./configure --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/scratch/**your_folder**/LBM_NEW/gcc-7.3.0/bin --disable-multilib
+./configure --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/scratch/wsantos/LBM_NEW/gcc-7.3.0/bin --disable-multilib
 </pre>
-*6.* compile using the maximum number of processors (64 for AMD nodes and 28 dor Intel nodes)
+*7.* Compile using the maximum number of processors (64 for AMD nodes and 28 dor Intel nodes)
 <pre>
-
+make -j64
+</pre>
+*8.* Install
+<pre>
+make install
 </pre>
 
 ---
