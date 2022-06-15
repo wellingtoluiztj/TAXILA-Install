@@ -22,8 +22,12 @@ sudo apt-install liblapack-dev
 sudo apt-install textinfo
 </pre>
 
-### First Step
+### First Step -> Make a diretory
 
+Make a diretory to install Taxila: 
 <pre>
-Make a diretory to install Taxila: mkdir LBM_NEW
+mkdir LBM_NEW
 </pre>
+
+### Second Step
+**Install gcc-7.3.0**
