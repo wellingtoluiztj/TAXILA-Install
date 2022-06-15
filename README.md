@@ -50,5 +50,10 @@ tar -xvf gcc-7.3.0.tar.gz
 <pre>
 mkdir bin
 </pre>
+*Clear loaded libraries*
+<pre>
+module purge
+</pre>
+
 
 ---
