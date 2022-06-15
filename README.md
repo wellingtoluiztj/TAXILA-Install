@@ -79,4 +79,8 @@ cd; vim .bashrc
 export PATHLD_LIBRARY_PATH=$LD_LIBRARY_PATH:/scratch/wsantos/LBM_NEW/gcc-7.3.0/bin/lib64
 export PATH=$PATH:/scratch/wsantos/LBM_NEW/gcc-7.3.0/bin/lib64
 </pre>
+
+```js
+function () { return "This code is highlighted as Javascript!"}
+```
 ---
