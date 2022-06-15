@@ -80,7 +80,5 @@ export PATHLD_LIBRARY_PATH=$LD_LIBRARY_PATH:/scratch/wsantos/LBM_NEW/gcc-7.3.0/b
 export PATH=$PATH:/scratch/wsantos/LBM_NEW/gcc-7.3.0/bin/lib64
 </pre>
 
-psdscd 'code'
-
-<iframe src="https://code.com" frameBorder="0" width="900" scrolling="no" height="900" height="900"></iframe>
 ---
+esse é "um código"
