@@ -31,3 +31,7 @@ mkdir LBM_NEW
 
 ### Second Step
 **Install gcc-7.3.0**
+Download gcc-7.3.0
+<pre>
+wget https://ftp.gnu.org/gnu/gcc/gcc-7.3.0/gcc-7.3.0.tar.gz
+</pre>
