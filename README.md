@@ -13,7 +13,13 @@
 Some dependences required before start to install TAXILA
 
 <pre>
-**On Debian**
+On Debian
 - sudo apt-get update
+- sudo apt-install git
+- sudo apt-install build-essential
+- sudo apt-install -y fftw3
+- sudo apt-install libblas-dev
+- sudo apt-install liblapack-dev
+- sudo apt-install textinfo
 </pre>
 
