@@ -58,7 +58,7 @@ module purge
 <pre>
 ./contrib/download_prerequisites
 </pre>
-*6.* Configure the build (all the times )
+*6.* Configure the build (all the times you find name wsantos, replace by your diretory name on scratch)
 <pre>
 ./configure --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/scratch/wsantos/LBM_NEW/gcc-7.3.0/bin --disable-multilib
 </pre>
