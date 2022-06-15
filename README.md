@@ -46,7 +46,7 @@ wget https://ftp.gnu.org/gnu/gcc/gcc-7.3.0/gcc-7.3.0.tar.gz
 <pre>
 tar -xvf gcc-7.3.0.tar.gz
 </pre>
-*3.* Make a *bin* diretory into gcc-7.3.0
+*3.* Make a *bin* diretory into the folder gcc-7.3.0
 <pre>
 mkdir bin
 </pre>
@@ -58,6 +58,6 @@ module purge
 <pre>
 ./contrib/download_prerequisites
 </pre>
-
+*6.* compile using the maximum number of processors(64 for AMD nodes and 28 dor Intel nodes)
 
 ---
