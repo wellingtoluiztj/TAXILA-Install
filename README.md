@@ -8,9 +8,6 @@
 - **OpenBlas**: 
 ---
 
----
-|d|d|x|
----
 
 
 ## Previous Installations 
