@@ -39,9 +39,9 @@ mkdir LBM_NEW
 
 
 *1.* Download gcc-7.3.0
-<pre>
+'''
 wget https://ftp.gnu.org/gnu/gcc/gcc-7.3.0/gcc-7.3.0.tar.gz
-</pre>
+'''
 *2.* Unpack gcc
 <pre>
 tar -xvf gcc-7.3.0.tar.gz
