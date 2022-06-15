@@ -58,6 +58,13 @@ module purge
 <pre>
 ./contrib/download_prerequisites
 </pre>
-*6.* compile using the maximum number of processors(64 for AMD nodes and 28 dor Intel nodes)
+*6.* Configure the build
+<pre>
+./configure --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/scratch/**your_folder**/LBM_NEW/gcc-7.3.0/bin --disable-multilib
+</pre>
+*6.* compile using the maximum number of processors (64 for AMD nodes and 28 dor Intel nodes)
+<pre>
+
+</pre>
 
 ---
