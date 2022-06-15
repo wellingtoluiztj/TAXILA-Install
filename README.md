@@ -22,3 +22,9 @@ sudo apt-install liblapack-dev
 sudo apt-install textinfo
 </pre>
 
+### First Step
+
+Make a diretory to install Taxila
+<pre>
+mkdir LBM_NEW
+</pre>
