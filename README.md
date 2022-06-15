@@ -1,7 +1,6 @@
 # TAXILA Installation on Clusters (Josephson and Bernal)
-## How to install TAXILA from scratch
 
-### You will need to install 
+## You will need to install 
 ---
 - **gcc-7.3.0**: Gnu Compile Collection is a compiler that support a large number of programming languages, hardware architectures and operating systems
 - **valgrid-3.13.0**: programming tool for memory debugging, memory leak detection, and profiling.
@@ -10,7 +9,7 @@
 ---
 
 
-### Previous Installations 
+## Previous Installations 
 ---
 Some dependences required before start to install TAXILA on debian
 
@@ -24,18 +23,16 @@ sudo apt-install liblapack-dev
 sudo apt-install textinfo
 </pre>
 ---
-### First Step
-
+## Main Directory
 ---
 Make a diretory to install Taxila: 
 <pre>
 mkdir LBM_NEW
 </pre>
 ---
-### Second Step
-
+## Install gcc-7.3.0
 ---
-**Install gcc-7.3.0**
+
 este é um "codigo embutido."
 
 *1.* Download gcc-7.3.0
