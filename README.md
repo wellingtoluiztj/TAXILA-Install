@@ -8,8 +8,10 @@
 - **Openmpi-3.1.2**: Message Passing Interface implementation used to parallelize calculations on clusters 
 - **OpenBlas**: 
 ---
-### Previous Installations 
 
+
+### Previous Installations 
+---
 Some dependences required before start to install TAXILA on debian
 
 <pre>
@@ -21,15 +23,18 @@ sudo apt-install libblas-dev
 sudo apt-install liblapack-dev
 sudo apt-install textinfo
 </pre>
-
+---
 ### First Step
 
+---
 Make a diretory to install Taxila: 
 <pre>
 mkdir LBM_NEW
 </pre>
-
+---
 ### Second Step
+
+---
 **Install gcc-7.3.0**
 
 
@@ -41,3 +46,4 @@ wget https://ftp.gnu.org/gnu/gcc/gcc-7.3.0/gcc-7.3.0.tar.gz
 <pre>
 tar -xvf gcc-7.3.0.tar.gz
 </pre>
+---
