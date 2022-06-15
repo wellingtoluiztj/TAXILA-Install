@@ -10,10 +10,9 @@
 
 ### Previous Installations 
 
-Some dependences required before start to install TAXILA
+Some dependences required before start to install TAXILA on debian
 
 <pre>
-On Debian
 sudo apt-get update
 sudo apt-install git
 sudo apt-install build-essential
