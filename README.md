@@ -1,4 +1,4 @@
-#TAXILA Installation on Clusters (Josephson and Bernal)
+# TAXILA Installation on Clusters (Josephson and Bernal)
 
 ## You will need to install 
 ---
@@ -6,6 +6,10 @@
 - **valgrid-3.13.0**: programming tool for memory debugging, memory leak detection, and profiling.
 - **Openmpi-3.1.2**: Message Passing Interface implementation used to parallelize calculations on clusters 
 - **OpenBlas**: 
+---
+
+---
+|d|d|x|
 ---
 
 
