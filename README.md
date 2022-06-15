@@ -1,4 +1,4 @@
-# TAXILA-Install
+# TAXILA Installation on Clusters (Josephson and Bernal)
 ## How to install TAXILA from scratch
 
 ### You will need to install 
@@ -10,7 +10,10 @@
 
 ### Previous Installations 
 
+Some dependences required before start to install TAXILA
+
 <pre>
-The first code
+**On Debian**
+- sudo apt-get update
 </pre>
 
