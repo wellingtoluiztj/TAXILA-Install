@@ -50,10 +50,13 @@ tar -xvf gcc-7.3.0.tar.gz
 <pre>
 mkdir bin
 </pre>
-*Clear loaded libraries*
+*4. * Clear loaded libraries
 <pre>
 module purge
 </pre>
-
+*5. * Download the prerequisites
+<pre>
+./contrib/download_prerequisites
+</pre>
 
 ---
