@@ -10,5 +10,5 @@ You will need to install
 
 <pre>
 The first code
-<\pre>
+</pre>
 
