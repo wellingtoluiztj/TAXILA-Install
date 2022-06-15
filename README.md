@@ -24,7 +24,6 @@ sudo apt-install textinfo
 
 ### First Step
 
-Make a diretory to install Taxila
 <pre>
-mkdir LBM_NEW
+Make a diretory to install Taxila: mkdir LBM_NEW
 </pre>
