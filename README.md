@@ -22,7 +22,7 @@ sudo apt-install liblapack-dev
 sudo apt-install textinfo
 </pre>
 
-### First Step -> Make a diretory
+### First Step
 
 Make a diretory to install Taxila: 
 <pre>
