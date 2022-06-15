@@ -36,7 +36,7 @@ mkdir LBM_NEW
 
 ---
 **Install gcc-7.3.0**
-
+este é um "codigo embutido."
 
 *1.* Download gcc-7.3.0
 <pre>
