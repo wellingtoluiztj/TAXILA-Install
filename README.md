@@ -8,9 +8,7 @@ You will need to install
 - **Openmpi-3.1.2**: Message Passing Interface implementation used to parallelize calculations on clusters 
 - **OpenBlas**: 
 
-'''
-
+<pre>
 The first code
-
-''' 
+<\pre>
 
