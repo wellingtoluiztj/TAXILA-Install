@@ -90,7 +90,7 @@ source .bashrc
 <pre>
 (tar -xvf valgrind-3.13.0.tar.bz2)
 </pre>
-*3.* Criar diretório bin dentro de valgrind-3.13.0
+*3.* Make *bin* diretory into valgrind-3.13.0 folder
 <pre>
 (mkdir bin)
 </pre>
@@ -106,4 +106,6 @@ make -j64
 <pre>
 make install
 </pre>
+===
+===
 
