@@ -80,3 +80,5 @@ export PATH=$PATH:/scratch/wsantos/LBM_NEW/gcc-7.3.0/bin/lib64
 source .bashrc
 </pre>
 ---
+## Install valgrind-3.13.0
+---
