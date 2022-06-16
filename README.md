@@ -148,4 +148,4 @@ mkdir bin
  make CC=/scratch/wsantos/LBM_NEW/openmpi-3.1.2/bin/mpicc  FC=/scratch/wsantos/LBM_NEW/openmpi-3.1.2/bin/mpif90      NO_LAPACKE=1 PREFIX=/scratch/wsantos/LBM_NEW/OpenBLAS/bin  HOSTCC=gcc  NO_STATIC=1 DYNAMIC_ARCH=1 NO_AFFINITY=1 USE_OPENMP=1
 *4.*
  make CC=/scratch/wsantos/LBM_NEW/openmpi-3.1.2/bin/mpicc  FC=/scratch/wsantos/LBM_NEW/openmpi-3.1.2/bin/mpif90      NO_LAPACKE=1 PREFIX=/scratch/wsantos/LBM_NEW/OpenBLAS/bin  HOSTCC=gcc  NO_STATIC=1 DYNAMIC_ARCH=1 NO_AFFINITY=1 USE_OPENMP=1 install 
-
+d
