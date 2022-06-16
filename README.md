@@ -107,7 +107,7 @@ make -j64
 make install
 </pre>
 ---
-Install openmpi-3.1.2
+## Install openmpi-3.1.2
 ---
 *1.* Download do openmpi-3.1.2 into LMB_NEW folder
 <pre>
@@ -134,7 +134,7 @@ make -j64
 make install
 </pre>
 ---
-Install openBlas
+## Install openBlas
 ---
 *1.* Download do openBLAS dentro de LMB_NEW 
 <pre>
@@ -146,9 +146,17 @@ mkdir bin
 </pre>
 *3.* 
 <pre>
- make CC=/scratch/wsantos/LBM_NEW/openmpi-3.1.2/bin/mpicc  FC=/scratch/wsantos/LBM_NEW/openmpi-3.1.2/bin/mpif90      NO_LAPACKE=1 PREFIX=/scratch/wsantos/LBM_NEW/OpenBLAS/bin  HOSTCC=gcc  NO_STATIC=1 DYNAMIC_ARCH=1 NO_AFFINITY=1 USE_OPENMP=1
+ make CC=/scratch/wsantos/LBM_NEW/openmpi-3.1.2/bin/mpicc FC=/scratch/wsantos/LBM_NEW/openmpi-3.1.2/bin/mpif90 NO_LAPACKE=1 PREFIX=/scratch/wsantos/LBM_NEW/OpenBLAS/bin HOSTCC=gcc NO_STATIC=1 DYNAMIC_ARCH=1 NO_AFFINITY=1 USE_OPENMP=1
 </pre>
 *4.*
 <pre>
- make CC=/scratch/wsantos/LBM_NEW/openmpi-3.1.2/bin/mpicc  FC=/scratch/wsantos/LBM_NEW/openmpi-3.1.2/bin/mpif90      NO_LAPACKE=1 PREFIX=/scratch/wsantos/LBM_NEW/OpenBLAS/bin  HOSTCC=gcc  NO_STATIC=1 DYNAMIC_ARCH=1 NO_AFFINITY=1 USE_OPENMP=1 install 
+ make CC=/scratch/wsantos/LBM_NEW/openmpi-3.1.2/bin/mpicc FC=/scratch/wsantos/LBM_NEW/openmpi-3.1.2/bin/mpif90 NO_LAPACKE=1 PREFIX=/scratch/wsantos/LBM_NEW/OpenBLAS/bin HOSTCC=gcc NO_STATIC=1 DYNAMIC_ARCH=1 NO_AFFINITY=1 USE_OPENMP=1 install 
 </pre>
+---
+## Install petsc-3.4.4
+
+
+Make sure that you're installing this version
+---
+
+
