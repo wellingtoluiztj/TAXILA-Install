@@ -106,6 +106,8 @@ make -j64
 <pre>
 make install
 </pre>
-===
-===
+---
+Install openmpi-3.1.2
+---
+
 
