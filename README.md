@@ -177,7 +177,7 @@ Dar o comando sugerido ao final(make PETSC_DIR=/scratch/wsantos/LBM_NEW/petsc-3.
 <pre>
 export PETSC_DIR=/scratch/wsantos/LBM_NEW/petsc-3.4.4  
 export LBM_DIR=/scratch/wsantos/LBM_NEW/taxila-font-Mar14
-</pre>]
+</pre>
 *6.* Update bashrc file
 <pre>
 source .bashrc
