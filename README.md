@@ -154,9 +154,32 @@ mkdir bin
 </pre>
 ---
 ## Install petsc-3.4.4
-
-
-Make sure that you're installing this version
 ---
+Make sure that you're installing this version
 
+*1.* Make Download of petsc-3.4.4  
+<pre>
+wget http://romeo.if.usp.br/~kirch/CODES.tar
+</pre>
+*2.* Umpack petsc-lite-3.4.4.tar.gz
+<pre>
+tar -xvf petsc-lite-3.4.4.tar.gz
+</pre>
+*3.* Congigure Compillation
+<pre>
+./configure --with-x=0 --with-mpi-dir=/scratch/wsantos/LBM_NEW/openmpi-3.1.2 --with-mpiexec=/scratch/wsantos/LBM_NEW/openmpi-3.1.2/bin/mpirun --with-blas-lib=/scratch/wsantos/LBM_NEW/OpenBLAS/bin/lib/libopenblas.a --with-lapack-lib=/scratch/wsantos/LBM_NEW/OpenBLAS/bin/lib/libopenblas.a --known-mpi-shared-libraries=0 --with-shared-libraries=0 --with-valgrind=yes –with-valgrind-dir=/scratch/wsantos/LBM_NEW/valgrind-3.13.0/bin
+</pre>
+*3.* Run suggested command gave at the end as it seen bellow
+<pre>
+Dar o comando sugerido ao final(make PETSC_DIR=/scratch/wsantos/LBM_NEW/petsc-3.4.4 PETSC_ARCH=arch-linux2-c-debug all)
+</pre>
+*4.* Edit .bashrc file 
+<pre>
+export PETSC_DIR=/scratch/wsantos/LBM_NEW/petsc-3.4.4  
+export LBM_DIR=/scratch/wsantos/LBM_NEW/taxila-font-Mar14
+</pre>]
+*6.* Update bashrc file
+<pre>
+source .bashrc
+</pre>
 
