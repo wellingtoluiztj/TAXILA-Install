@@ -84,15 +84,15 @@ source .bashrc
 ---
 *1.* Donwload valgrind into LBM_NEW folder
 <pre>
-(wget ftp://sourceware.org/pub/valgrind/valgrind-3.13.0.tar.bz2)
+wget ftp://sourceware.org/pub/valgrind/valgrind-3.13.0.tar.bz2
 </pre>
 *2.* Unpack valgrind
 <pre>
-(tar -xvf valgrind-3.13.0.tar.bz2)
+tar -xvf valgrind-3.13.0.tar.bz2
 </pre>
 *3.* Make *bin* diretory into valgrind-3.13.0 folder
 <pre>
-(mkdir bin)
+mkdir bin
 </pre>
 *4.* Into valgrind-3.13.0 folder, configure compilation
 <pre>
@@ -109,5 +109,41 @@ make install
 ---
 Install openmpi-3.1.2
 ---
-
+*1.* Download do openmpi-3.1.2 into LMB_NEW folder
+<pre>
+wget https://download.open-mpi.org/release/open-mpi/v3.1/openmpi-3.1.2.tar.gz
+</pre>
+*2.* Umpack openmpi-3.1.2
+<pre>
+tar -xvf openmpi-3.1.2.tar.gz
+</pre>
+*3.* Make bin diretory into the openmpi-3.1.2 folder 
+<pre>
+mkdir bin
+</pre>
+*4.* Configure Compilation
+<pre>
+./configure CC=/scratch/wsantos/LBM_NEW/gcc-7.3.0/bin/bin/gcc FC=/scratch/wsantos/LBM_NEW/gcc-7.3.0/bin/bin/gfortran --prefix=/scratch/wsantos/LBM_NEW/openmpi-3.1.2/bin
+</pre>
+*5.* Compile using maximum number of processors
+<pre>
+make -j64
+</pre>
+*6.* Execute executable to install openmpi
+<pre>
+make install
+</pre>
+---
+Install openBlas
+---
+*1.* Download do openBLAS dentro de LMB_NEW 
+<pre>
+git clone https://github.com/xianyi/OpenBLAS.git)
+</pre>
+*2.* Make *bin* diretoty into openBLAS folder
+<pre>
+mkdir bin
+</pre>
+ make CC=/scratch/wsantos/LBM_NEW/openmpi-3.1.2/bin/mpicc  FC=/scratch/wsantos/LBM_NEW/openmpi-3.1.2/bin/mpif90      NO_LAPACKE=1 PREFIX=/scratch/wsantos/LBM_NEW/OpenBLAS/bin  HOSTCC=gcc  NO_STATIC=1 DYNAMIC_ARCH=1 NO_AFFINITY=1 USE_OPENMP=1
+ make CC=/scratch/wsantos/LBM_NEW/openmpi-3.1.2/bin/mpicc  FC=/scratch/wsantos/LBM_NEW/openmpi-3.1.2/bin/mpif90      NO_LAPACKE=1 PREFIX=/scratch/wsantos/LBM_NEW/OpenBLAS/bin  HOSTCC=gcc  NO_STATIC=1 DYNAMIC_ARCH=1 NO_AFFINITY=1 USE_OPENMP=1 install 
 
