@@ -82,3 +82,28 @@ source .bashrc
 ---
 ## Install valgrind-3.13.0
 ---
+*1.* Donwload valgrind into LBM_NEW folder
+<pre>
+(wget ftp://sourceware.org/pub/valgrind/valgrind-3.13.0.tar.bz2)
+</pre>
+*2.* Unpack valgrind
+<pre>
+(tar -xvf valgrind-3.13.0.tar.bz2)
+</pre>
+*3.* Criar diretório bin dentro de valgrind-3.13.0
+<pre>
+(mkdir bin)
+</pre>
+*4.* Into valgrind-3.13.0 folder, configure compilation
+<pre>
+./configure CC=/scratch/wsantos/LBM_NEW/gcc-7.3.0/bin/bin/gcc FC=/scratch/wsantos/LBM_NEW/gcc-7.3.0/bin/bin/gfortran --prefix=/scratch/wsantos/LBM_NEW/valgrind-3.13.0/bin
+</pre>
+*5.* Compile program using maximum number of processors
+<pre>
+make -j64
+</pre>
+*6.* Intall Valgrid
+<pre>
+make install
+</pre>
+
