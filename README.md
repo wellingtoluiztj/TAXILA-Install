@@ -214,7 +214,7 @@ make
 </pre>
 *2.* Run Taxila
 <pre>
-sbatch script
+sbatch script_model.sh
 </pre>
-Obs: Talvez seja necessário colocar no script de submissão  as mesmas variáveis exportadas no .bashrc)
+## End
 
