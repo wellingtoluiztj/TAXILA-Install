@@ -207,7 +207,7 @@ make
 ---
 ## Run Taxila
 ---
-*1.* Download folder and compile Taxila using commands bellow
+*1.* Download folder 2D_Displacement (availible into this repository) and compile Taxila using commands bellow
 <pre>
 make clean
 make
