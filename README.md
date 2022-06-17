@@ -3,7 +3,7 @@
 ## You will need to install 
 ---
 - **gcc-7.3.0**: Gnu Compile Collection is a compiler that support a large number of programming languages, hardware architectures and operating systems
-- **valgrid-3.13.0**: programming tool for memory debugging, memory leak detection, and profiling.
+- **Valgrid-3.13.0**: programming tool for memory debugging, memory leak detection, and profiling.
 - **Openmpi-3.1.2**: Message Passing Interface implementation used to parallelize calculations on clusters 
 - **OpenBlas**: OpenBLAS is an optimized Basic Linear Algebra Subprograms (BLAS) library based on GotoBLAS2 1.13 BSD version.
 - **PETSc**: PETSc, the Portable, Extensible Toolkit for Scientific Computation, pronounced PET-see (/ˈpɛt-siː/), is a suite of data structures and routines for the scalable (parallel) solution of scientific applications modeled by partial differential equations.
