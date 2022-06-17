@@ -195,5 +195,5 @@ gzip -d -r *
 </pre>
 Enter on diretory /scratch/wsantos/LBM_NEW/taxila-font-Mar14/src/lbm and type command bellow
 <pre>
-comando (make)
+make
 </pre>
