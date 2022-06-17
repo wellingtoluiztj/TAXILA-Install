@@ -182,4 +182,18 @@ export LBM_DIR=/scratch/wsantos/LBM_NEW/taxila-font-Mar14
 <pre>
 source .bashrc
 </pre>
-
+---
+Intall Taxila
+---
+*1.* Umpack folder taxila-font-Mar14
+<pre>
+tar -xvf taxila-font-Mar14
+</pre>
+*2.* Into taxila-font-Mar14 directory type comand bellow
+<pre>
+gzip -d -r *
+</pre>
+Enter on diretory /scratch/wsantos/LBM_NEW/taxila-font-Mar14/src/lbm and type command bellow
+<pre>
+comando (make)
+</pre>
