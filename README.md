@@ -28,10 +28,15 @@ sudo apt-install textinfo
 ---
 ## Main Directory
 ---
-Make a diretory to install Taxila: 
+*1.* Make a diretory to install Taxila: 
 <pre>
 mkdir LBM_NEW
 </pre>
+*2.* Enter in LBM_NEW diretory
+<pre>
+cd LBM_NEW
+</pre>
+
 ---
 ## Install gcc-7.3.0
 ---
