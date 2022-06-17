@@ -190,7 +190,7 @@ export LBM_DIR=/scratch/wsantos/LBM_NEW/taxila-font-Mar14
 source .bashrc
 </pre>
 ---
-Intall Taxila
+## Intall Taxila
 ---
 *1.* Umpack folder taxila-font-Mar14
 <pre>
@@ -204,3 +204,17 @@ Enter on diretory /scratch/wsantos/LBM_NEW/taxila-font-Mar14/src/lbm and type co
 <pre>
 make
 </pre>
+---
+## Run Taxila
+---
+*1.* Download folder and compile Taxila using commands bellow
+<pre>
+make clean
+make
+</pre>
+*2.* Run Taxila
+<pre>
+sbatch script
+</pre>
+Obs: Talvez seja necessário colocar no script de submissão  as mesmas variáveis exportadas no .bashrc)
+
