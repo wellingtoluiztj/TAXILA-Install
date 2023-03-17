@@ -65,7 +65,7 @@ module purge
 <pre>
 ./configure --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/scratch/wsantos/LBM_NEW/gcc-7.3.0/bin --disable-multilib
 </pre>
-*7.* Compile using the maximum number of processors (64 for AMD nodes and 28 dor Intel nodes)
+*7.* Compile using the maximum number of processors (64 for AMD nodes and 28 for Intel nodes)
 <pre>
 make -j64
 </pre>
